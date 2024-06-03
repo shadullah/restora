@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restora</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <nav class="max-w-[1200px] mx-auto py-6">
+      <div class="flex justify-between items-center">
+        <div class="uppercase font-bold text-3xl"><a href="/">Restora</a></div>
+        <div>
+          <ul class="flex space-x-3 text-xl font-medium">
+            <li>Menu</li>
+            <a href="./Reserve.html"><li>Researvation</li></a>
+            <a href="./Contact.html">
+              <li>Contact</li>
+            </a>
+            <li>About</li>
+          </ul>
+        </div>
+        <div>
+          <button class="bg-orange-500 font-bold py-3 px-4">Login</button>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div>
+        <h1 class="text-3xl text-center">Contact Page</h1>
+        <div class="flex justify-between items-center">
+          <div class="w-1/2">
+            <form class="space-y-4 m-12 text-center">
+              <div>
+                <label for="">email</label> <br />
+                <input placeholder="" type="email" class="border-b-4 mt-3" />
+              </div>
+              <div>
+                <label for="">Mobile</label> <br />
+                <input placeholder="" type="number" class="border-b-4 mt-3" />
+              </div>
+              <div>
+                <label for="">Address</label>
+                <br />
+                <textarea
+                  placeholder=""
+                  type="text"
+                  class="border-b-4 mt-3"
+                ></textarea>
+              </div>
+              <div class="text-center">
+                <button class="bg-yellow-600 py-3 px-4 text-white">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="w-1/2">
+            <img
+              class="m-12 rounded-lg h-[320px] w-[520px] mx-auto"
+              src="https://static.vecteezy.com/system/resources/previews/008/559/114/non_2x/contact-us-button-contact-us-text-web-template-sign-icon-banner-vector.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="text-center my-6">
+      &copy; Copyright Reserved by Restora
+    </footer>
+  </body>
+</html>
